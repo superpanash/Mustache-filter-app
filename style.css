@@ -1,0 +1,25 @@
+#header{
+    font-size: 30px;
+}
+
+#button_snap:hover{
+    background-color:rgb(135, 250, 250);
+    color :black;
+    font-size: 20px;
+}
+
+#button_snap{
+    font-size:19px;
+    border-radius: 30px;
+}
+
+canvas{
+    animation-name:trans;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes trans{
+    from{box-shadow:1px 1px 38px rgb(255, 166, 0)}
+    to{box-shadow:1px 1px 39px rgb(0, 255, 221)}
+}
